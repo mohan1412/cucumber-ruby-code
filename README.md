@@ -1,19 +1,14 @@
-# QA Code Test
 
 ### Setup
 1. Download and unzip file
-2. Rename your project "qa-interview-yourname"
-3. Make sure your Ruby environment is using `ruby 2.3.3`
-4. Be sure to bundle install
-5. Run the example feature file:
-    - `bundle exec cucumber features/example.feature`
-6. Create the tests below in order.  You should be able to create any tests by building on the
-   files that are already set up in the project.
+2. Make sure your Ruby environment is using `ruby 2.3.3`
+3. Be sure to bundle install
+4. Run the example feature file:
+    - `bundle exec cucumber features/myRapNamePage.feature`
 
 Homepage='http://www.myrapname.com/'
 
-### Tests
-Write an automated test to validate each of the following:
+### Tests scenarios covered
 1. The input fields exist
 2. A negative scenario using the input fields
 3. Input data into the fields
