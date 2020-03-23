@@ -38,7 +38,7 @@ Feature: My Rap Name Page
     Then    I click on button having name "Male"
     And     I wait for 2 sec
     Then    I see displayed title "Your rap name is:"
-    And     I should see new rap name has been prepended to the  with row count 1
+    And     I should see new rap name has been prepended to the list with row count 1
 
   Scenario: Submit twice for a female with a last initial
     Then    I enter "Corona" into input field having name "firstname"
